@@ -46,7 +46,13 @@
 ## **5. Prerequisites and Execution**
 ### **Dependencies**:
 Ensure the following are installed:
-- Python 3.8+.
+
+- I have created a separate environment named as `venv` which consist of Python 3.10 version.You can create a new environment as `create -p venv python==3.10`
+
+- Then activate the environment
+
+- Run the command to install all the dependencies using this command
+`pip install -r requirements.txt`
 - Required Python packages:
   - `langchain`
   - `PyPDF2`
